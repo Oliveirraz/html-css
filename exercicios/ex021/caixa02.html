@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-color: #8b8b7e;
+        }
+        header{
+            padding: 8px;
+            margin: 5px;
+            background-color: white;
+        }
+        main{
+            background-color: white;
+            padding: 8px;
+            margin: 5px;
+            border-radius: 7px;
+        }
+        footer{
+            background-color: #D9CEC1;
+            color: black;
+            width: 300px;
+            margin: 5px;
+            text-align: center;
+        }
+        nav{
+            background-color: #8b8b7e;
+            padding: 3px;
+            font-weight: bolder;
+            font-style: italic;
+            box-shadow: 2px 3px 1px 0px rgba(8, 7, 7, 0.37);
+        }
+        nav > a{
+            margin-right: 30px;
+        }
+
+       nav > a:hover{
+        color: green;
+        text-decoration: none;
+
+       }
+        article{
+            background-color: #A69B92;
+            padding: 2px;
+        }
+        article > aside.autor{
+           background-color: #D9CEC1;
+           width: 200px;
+           text-align: center;
+        }
+        div{
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <nav>
+                <a href="#">Esporte</a>
+                <a href="#">Cotidiano</a>
+                <a href="#">Jogos</a>
+                <a href="#">Música</a>
+            </nav>
+        </section>
+        <section>
+            <article>
+                <aside>
+                    <h2>noticias sobre o Brasil</h2>
+                    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit numquam est repudiandae dolorum modi similique aspernatur error aliquam consequuntur unde quis aperiam quam cum sint, tempora at voluptate sequi.</p>
+                </aside>
+                <aside class="autor">
+                    <p>Artigo escrito por gleisson</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Glêisson de Oliveira</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
